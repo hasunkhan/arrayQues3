@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Quotes List</title>
+</head>
+
+<body>
+    <script>
+    (function() {
+        var quotes = ["Live for yourself.", "Work hard. Dream big.", "Life is short. Live passionately.", "Life is a one time offer, use it well.", "The trouble is you think you have time.", "Whatever you are, be a good one.", "Everything happens for a reason.", "Love the life you live, and live the life you love.", "Live each day as if it’s your last.", "Try and fail, but never fail to try."];
+        var popped = quotes.pop();
+        console.log(popped);
+        console.log(typeof(popped));
+        console.log(popped.length);
+        var conversion = popped.split();
+        console.log(conversion);
+        console.log(conversion.length);
+    })()
+    </script>
+</body>
+
+</html>
